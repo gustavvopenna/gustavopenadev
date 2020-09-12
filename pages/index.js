@@ -15,7 +15,7 @@ export default function Home() {
         <div className="w-full flex justify-end p-5">
           <DarkModeToggle />
         </div>
-        <div className="h-full px-10 flex flex-col justify-center items-start">
+        <div className="h-screen px-10 flex flex-col justify-center items-start">
           <h1 className="font-bold text-6xl leading-tight">
             Gustavo Peña <br />
             <span className="text-blue-500 hover:text-blue-600 transition ease-in-out duration-200">Frontend Developer</span>
