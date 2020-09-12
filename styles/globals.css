@@ -8,6 +8,25 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* transition: all cubic-bezier(0.45, 0.25, 0.60, 0.95) 250ms; */
+  background-color: var(--bg-color);
+  color: var(--text-base-color);
+}
+
+body.light-mode {
+  --bg-color: #fff;
+  --text-base-color: #000;
+  --button-call-action: #932866;
+}
+
+body.dark-mode {
+  --bg-color: #000;
+  --text-base-color: #fff;
+  --button-call-action: #b83280;
+}
+
+button.call-to-action {
+  color: var(--button-call-action);
 }
 
 a {

@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^2.6.5",
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",
